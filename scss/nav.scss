@@ -1,0 +1,35 @@
+$hoofdkleur : #0073cf;
+$achtergrond: #fff;
+
+.navbar {
+	width: 100vw;
+	height: 65px;
+	background-color: $achtergrond;
+
+
+img {
+	float: left;
+	padding-top: 10px;
+	padding-left: 130px;
+}
+
+.drop {
+	padding-top: 20px;
+	padding-right: 5em;
+}
+
+.drop{
+a {
+	padding-left: 9px;
+}} 
+
+.foto {
+	width: 173px;
+	height: 143px;
+	background-size: cover;
+	float: right;
+	margin-top: -100px;
+	margin-right: 70px;
+	background: url(../img/hersens-icon.png) no-repeat;
+}
+}

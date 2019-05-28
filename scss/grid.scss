@@ -1,0 +1,70 @@
+$hoofdkleur : #0073cf;
+$achtergrond: #fff;
+
+.grid {
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+	padding-top: 80px;
+
+
+img {
+	width: 300px;
+	height: auto;
+}
+
+div {
+	width: 310px;
+}
+
+#grid_1 {
+	grid-column: 1;
+	width: auto;
+	align-content: center;
+	margin-left: 155px;
+	width: 300px;
+}
+
+#grid_2 {
+	grid-column: 2;
+	width: auto;
+	align-content: center;
+	margin-left: 110px;
+	width: 300px;
+}
+#grid_3 {
+	grid-column: 3;
+	width: auto;
+	align-content: center;
+	margin-left: 45px;
+	width: 300px;
+}
+
+#grid_4 {
+	grid-column: 4;
+	width: auto;
+	align-content: center;
+	margin-right: 60px;
+	width: 300px;
+}
+
+div { 
+h3 {
+	font-size: 16px;
+	color: $hoofdkleur;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+
+p {
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+
+.leesmeer {
+	font-size: 14px;
+	color: $hoofdkleur;
+	}
+}
+}

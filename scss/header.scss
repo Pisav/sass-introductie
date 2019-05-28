@@ -1,0 +1,39 @@
+$achtergrond: #fff;
+$hoofdkleur : #0073cf;
+
+header {
+	padding-top: 5px;
+	height: 380px;
+	width: 100%;
+	background: url(../img/slide-iddink1.jpg);
+	background-size: cover;
+
+
+p {
+	color: $achtergrond;
+	font-size: 25px;
+	padding-top: 3em;
+	padding-left: 8em;
+	font-family: "Quicksand", "sans-serif"
+}
+
+button {
+	margin-top: 6em;
+	margin-left: 35em;
+	background-color: $hoofdkleur;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: $hoofdkleur;
+	padding: 10px 20px 10px 20px;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: $achtergrond;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: $achtergrond;
+	border-radius: 4px;
+	display: block;
+}
+}

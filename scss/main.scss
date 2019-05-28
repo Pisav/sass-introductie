@@ -1,0 +1,159 @@
+@import 'nav', 'grid', 'header', 'footer';
+
+$hoofdkleur : #0073cf;
+$achtergrond: #fff;
+
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	float: right;
+	color: $hoofdkleur;
+}
+
+select {
+	float: right;
+	border: none;
+	color: $hoofdkleur;
+	font-size: 15px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+
+
+.kop1 {
+	text-align: center;
+}
+
+.kop1_foto {
+	float: right;
+	height: 110px;
+	width: 270px;
+	background: url(../img/ipad-pijl.png);
+	background-size: cover;
+	margin-right: 21.5em;
+	margin-top: -110px;
+}
+
+.button {
+	padding-top: 25px;
+	margin: 0px;
+}
+
+.blauw {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: $hoofdkleur;
+	padding: 10px 20px 10px 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 5px;
+	border-color: $achtergrond;
+	color: $achtergrond;
+	text-transform: uppercase;
+}
+
+.wit {
+	text-align: center;
+	font-size: 13px;
+	color: $hoofdkleur;
+	text-transform: uppercase;
+	border: none;
+	background-color: $achtergrond;
+}
+
+
+.winactie {
+	background-color: #85BADF;
+	opacity: 60%;
+	padding-bottom: 80px;
+}
+
+.winactie p {
+	color: #fff;
+	font-size: 20px;
+	padding-left: 385px;
+	margin-top: -30px;
+}
+
+.winactie #ipad {
+	margin-left: 820px;
+	padding-bottom: 20px;
+}
+
+.winactie h3 {
+	padding-top: 100px;
+	color: #fff;
+	font-size: 29px;
+	font-weight: 400;
+	padding-left: 385px;
+	margin-bottom: -70px;
+}
+
+.winactie { 
+button {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 10px 23px 10px 30px;
+	background-color: #0073CF;
+	color: #fff;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #fff;
+	border-radius: 5px;
+	display: block;
+	margin-left: 390px;
+	margin-top: 50px;}
+	#ipad_winactie {
+	float: right;
+	padding-right: 350px;
+	padding-left: 20px;
+}
+}
+
+
+
+.contacteren {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	width: 80%;
+
+
+h3 {
+	color: #0073CF;
+	font-size: 24px;
+	margin-left: 36.5%;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	padding-left: 240px;
+}
+
+button {
+	display: block;
+	margin-left: 46.5%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	background-color: #0073CF;
+	color: #fff;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #fff;
+	border-radius: 10px;
+}
+
+img {
+	float: right;
+	padding-right: 250px;
+}
+}

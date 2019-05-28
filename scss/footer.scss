@@ -1,0 +1,57 @@
+$achtergrond: #fff;
+$hoofdkleur : #0073cf;
+
+
+footer { 
+
+	margin-top: 50px;
+	background-color: $hoofdkleur;
+	padding-bottom: 50px;
+
+img {
+	height: 40px;
+	padding: 50px 220px;
+	display: block;
+	margin: 0;
+}
+.onderdeel {
+	font-size: 14px;
+	padding-top: 25px;
+	margin-top: -10px;
+	color: $achtergrond;
+	padding-left: 220px;
+	margin-bottom: 0;
+}
+.group {
+	float: right;
+	margin-right: 243px;
+	margin-top: -18px;
+	color: $achtergrond;
+	font-size: 14px;
+}
+ ul {
+	list-style-type: none;
+	margin-top: -100px;
+	padding-right: 220px;
+	;
+	overflow: hidden;
+}
+ li {
+	float: right;
+	text-transform: uppercase;
+	 a {
+	display: block;
+	color: $achtergrond;
+	padding: 25px;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+}
+}
+
+
+
+
+
+
